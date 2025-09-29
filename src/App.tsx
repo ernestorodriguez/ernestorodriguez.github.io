@@ -21,8 +21,10 @@ const App: React.FC = () => {
             <circle cx="10" cy="10" r="5" stroke="white" strokeWidth="2" fill="none"/>
           </svg>
         </div>
-        <p className="funny-message">"{currentMessage}"</p>
-        <p className="signature">— E.R</p>
+        <div className="text-container">
+          <p className="funny-message">"{currentMessage}"</p>
+          <p className="signature">— E.R</p>
+        </div>
       </div>
     </div>
   );
