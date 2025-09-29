@@ -22,7 +22,7 @@ const App: React.FC = () => {
           </svg>
         </div>
         <div className="text-container">
-          <p className="funny-message">"{currentMessage}"</p>
+          <p className="funny-message">&quot;{currentMessage}&quot;</p>
           <p className="signature">— E.R</p>
         </div>
       </div>
